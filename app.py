@@ -6,8 +6,8 @@ import os
 
 st.set_page_config(page_title="", layout="wide")
 
-st.title("")
-st.write("")
+st.title("Sam & Dan's Architecture Map of Leipzig")
+st.write("A tour featuring the unusual mixture of Jugenstil and other types of architecture.")
 
 FILE_PATH = "./dataset.csv"
 
@@ -41,7 +41,7 @@ if required_cols.issubset(df.columns):
 
     df["tooltip_html"] = df.apply(generate_tooltip_html, axis=1)
 
-    st.subheader("Architecture Map of Leipzig")
+    st.subheader("Map Visualisation")
     st.pydeck_chart(pdk.Deck(
         initial_view_state=pdk.ViewState(
             latitude=51.3397,
@@ -54,7 +54,7 @@ if required_cols.issubset(df.columns):
                 "ScatterplotLayer",
                 data=df,
                 get_position='[longitude, latitude]',
-                get_radius=100,
+                get_radius=25,
                 get_color='[255, 100, 100, 160]',
                 pickable=True,
             ),
