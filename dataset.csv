@@ -1,19 +1,19 @@
 title,address,architect,latitude,longitude,image_path
-Da lions,Jahnallee 54,,51.3387257561511,12.3415230279864,Images/1.jpg
-Babies – guys with horn underneath,Jahnallee 65,,51.338005446726,12.3412735684619,Images/2.jpg
-Columns of babies [smth],Jahnallee 67,,51.3377622240884,12.340933726134,Images/3.jpg
-König @ Theater der jungen Welt,Lindenauer Markt 21,Carl Fischer,51.3379001158738,12.3331884531178,Images/4.jpg
-High baby,Odermannstraße 21,,51.3363324084517,12.3328800819538,Images/5.jpg
-Many baby angels,"Demmeringstraße 42, 04177 Leipzig",,51.3374874115762,12.330425926134,Images/6.jpg
-Plant-esque Motifs,"Demmeringstraße 58, 04177 Leipzig",,51.3371510313071,12.3289376377735,Images/7.jpg
-Man with moustache & goatee,"Georg-Schwarz-Straße 3, 04177 Leipzig",,51.3382983276169,12.3271252684619,Images/8.jpg
-Dragon with egg in mouth,"Erich-Köhn-Straße 100, 04177 Leipzig",,51.3392449711137,12.3265835124147,Images/9.jpg
-Baby on a pedestal (other guys),Check,,,,Images/10.jpg
-Guy in “window roof”,"Spittastraße 6, 04177 Leipzig",,51.3412315097092,12.3268170396261,Images/11.jpg
-Mint-green motifs,"William-Zipperer-Straße 50, 04177 Leipzig",,51.3419338219797,12.3273949838064,Images/12.jpg
-Flower entrance,"Rietschelstraße 79, 04177 Leipzig",,51.3459346987601,12.3240017261345,Images/13.jpg
-Oval face (smiing guy in rectangle),"Roßmarktstraße 9, 04177 Leipzig",,51.3392059150401,12.3344104396259,Images/14.jpg
-Medusa,"Roßmarktstraße 10, 04177 Leipzig",,51.3395821353063,12.3342921126423,Images/15.jpg
+Da lions,Jahnallee 54,,51.3387257561511,12.3415230279864,./images/1.jpg
+Babies – guys with horn underneath,Jahnallee 65,,51.338005446726,12.3412735684619,./images/2.jpg
+Columns of babies [smth],Jahnallee 67,,51.3377622240884,12.340933726134,./images/3.jpg
+König @ Theater der jungen Welt,Lindenauer Markt 21,Carl Fischer,51.3379001158738,12.3331884531178,./images/4.jpg
+High baby,Odermannstraße 21,,51.3363324084517,12.3328800819538,./images/5.jpg
+Many baby angels,"Demmeringstraße 42, 04177 Leipzig",,51.3374874115762,12.330425926134,./images/6.jpg
+Plant-esque Motifs,"Demmeringstraße 58, 04177 Leipzig",,51.3371510313071,12.3289376377735,./images/7.jpg
+Man with moustache & goatee,"Georg-Schwarz-Straße 3, 04177 Leipzig",,51.3382983276169,12.3271252684619,./images/8.jpg
+Dragon with egg in mouth,"Erich-Köhn-Straße 100, 04177 Leipzig",,51.3392449711137,12.3265835124147,./images/9.jpg
+Baby on a pedestal (other guys),Check,,,,./images/10.jpg
+Guy in “window roof”,"Spittastraße 6, 04177 Leipzig",,51.3412315097092,12.3268170396261,./images/11.jpg
+Mint-green motifs,"William-Zipperer-Straße 50, 04177 Leipzig",,51.3419338219797,12.3273949838064,./images/12.jpg
+Flower entrance,"Rietschelstraße 79, 04177 Leipzig",,51.3459346987601,12.3240017261345,./images/13.jpg
+Oval face (smiing guy in rectangle),"Roßmarktstraße 9, 04177 Leipzig",,51.3392059150401,12.3344104396259,./images/14.jpg
+Medusa,"Roßmarktstraße 10, 04177 Leipzig",,51.3395821353063,12.3342921126423,./images/15.jpg
 Head with wings,"Marktstraße 9, 04177 Leipzig",,51.3362230228901,12.3341347396258,Images/16.jpg
 Many angry guys,"Merseburger Str. 37
 04177 Leipzig",,51.3322607298895,12.3325700972977,Images/17.jpg
