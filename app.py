@@ -44,9 +44,9 @@ if required_cols.issubset(df.columns):
     st.subheader("Map Visualisation")
     st.pydeck_chart(pdk.Deck(
         initial_view_state=pdk.ViewState(
-            latitude=51.3397,
-            longitude=12.3731,
-            zoom=11,
+            latitude=51.333839,
+            longitude=12.329561,
+            zoom=20,
             pitch=0,
         ),
         layers=[
