@@ -45,7 +45,7 @@ def prepare_data(df):
     df["tooltip_html"] = df.apply(generate_tooltip_html, axis=1)
     return df
 
-df = load_data(FILE_PATH)
+df = pd.read_csv("precomputed.csv")
 required_cols = {'latitude', 'longitude', 'title', 'image_path'}
 if required_cols.issubset(df.columns):
 
@@ -79,7 +79,7 @@ if required_cols.issubset(df.columns):
                 get_alignment_baseline="'bottom'",
             )
         ],
-        # tooltip={"html": "{tooltip_html}", "style": {"backgroundColor": "white", "color": "black"}}
+        tooltip={"html": "{tooltip_html}", "style": {"backgroundColor": "white", "color": "black"}}
     ))
 else:
     st.error("CSV must contain 'latitude', 'longitude', 'title', and 'image_path' columns.")
