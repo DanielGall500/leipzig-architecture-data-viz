@@ -49,7 +49,7 @@ df = load_data(FILE_PATH)
 required_cols = {'latitude', 'longitude', 'title', 'image_path'}
 if required_cols.issubset(df.columns):
 
-    df = prepare_data(df)
+    # df = prepare_data(df)
 
     st.subheader("Map")
     st.pydeck_chart(pdk.Deck(
@@ -79,7 +79,7 @@ if required_cols.issubset(df.columns):
                 get_alignment_baseline="'bottom'",
             )
         ],
-        tooltip={"html": "{tooltip_html}", "style": {"backgroundColor": "white", "color": "black"}}
+        # tooltip={"html": "{tooltip_html}", "style": {"backgroundColor": "white", "color": "black"}}
     ))
 else:
     st.error("CSV must contain 'latitude', 'longitude', 'title', and 'image_path' columns.")
