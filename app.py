@@ -79,7 +79,7 @@ if required_cols.issubset(df.columns):
                 get_alignment_baseline="'bottom'",
             )
         ],
-        tooltip={"html": "{tooltip_html}", "style": {"backgroundColor": "white", "color": "black"}}
+         tooltip={"html": "{tooltip_html}", "style": {"backgroundColor": "white", "color": "black"}}
     ))
 else:
     st.error("CSV must contain 'latitude', 'longitude', 'title', and 'image_path' columns.")
