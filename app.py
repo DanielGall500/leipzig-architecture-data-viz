@@ -74,7 +74,7 @@ if required_cols.issubset(df.columns):
                 get_position='[longitude, latitude]',
                 get_text="title",
                 get_size=12,
-                get_color=[0, 0, 0],
+                get_color=[255, 255, 255],
                 get_angle=0,
                 get_alignment_baseline="'bottom'",
             )
