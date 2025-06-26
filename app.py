@@ -32,7 +32,7 @@ def prepare_data(df):
             with open(img_full_path, "rb") as f:
                 data = f.read()
                 img_b64 = base64.b64encode(data).decode()
-                img_html = f"<img src='data:image/jpeg;base64,{img_b64}' width='150'>"
+                img_html = f"<img src='data:image/jpeg;base64,{img_b64}' width='50'>"
         except Exception as e:
             img_html = "<i>(image not found)</i>"
 
